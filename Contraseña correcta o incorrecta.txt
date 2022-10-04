@@ -1,0 +1,16 @@
+Algoritmo_clavedeacceso
+
+Var
+	Entero: contraseña
+CNT
+	cnt: 12345
+Inicio
+	
+	Escribir("Escriba su contraseña")
+	Leer (contraseña)
+	Mientras(Contraseña<>"12345")
+		Escribir("Contraseña erronea, vuelva a intentarlo")
+		Leer (contraseña)
+	Fin_Mientras
+	Escribir("Contraseña correcta")
+Fin
